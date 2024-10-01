@@ -48,7 +48,6 @@ Execute `ng build` para buildar o projeto. Os arquivos serão armazenados do dir
 <h2 id="links">🔗 Links Úteis</h2>
 
 - [Angular 17 Docs](https://angular.dev/).
-- [Youtube Channel](https://www.youtube.com/live/O26fDEnAukY?si=8OjYdSyhlAuNUSa_).
 
 <h2 id="questions">✉️ Dúvidas</h2>
 
