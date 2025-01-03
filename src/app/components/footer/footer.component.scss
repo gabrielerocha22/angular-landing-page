@@ -1,11 +1,58 @@
-footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+/* Estilo para o rodapé */
+.footer {
+  background-color: #8bbb4e; /* Cor de fundo */
+  color: white; /* Cor do texto */
+  padding: 20px 0;
+  position: fixed;  /* O rodapé vai ficar fixado no final */
+  bottom: -100%;  /* Inicialmente fora da tela */
+  left: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 1000;  /* Garantir que o rodapé fique acima de outros elementos */
+  transition: bottom 0.5s ease; /* Transição suave ao aparecer */
+}
 
-  .socials {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-  }
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.footer-links li {
+  margin-right: 20px;
+}
+
+.footer-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.footer-links li a:hover {
+  text-decoration: underline;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 14px;
+  color: white;
+}
+
+.footer-logo {
+  position: absolute;
+  top: 10px; /* Ajuste a posição vertical */
+  left: 10px; /* Ajuste a posição horizontal */
+  width: 30px; /* Tamanho do ícone */
+  height: 30px; /* Tamanho do ícone */
 }

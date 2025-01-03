@@ -1,24 +1,20 @@
 <section class="form-section">
   <div class="text">
-    <h3>Fique por dentro das tendências</h3>
+    <h3>Fique por dentro das nossas novidades</h3>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi.
-      Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis
-      ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam
-      quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna
-      interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum
-      sit amet. Pellentesque commodo lacus at sodales sodales. Quisque sagittis
-      orci ut diam condimentum, vel euismod erat placerat. In iaculis arcu eros,
-      eget temp
+      Entre em contato conosco e esclareça suas dúvidas sobre as melhores 
+      opções de plantas para o seu ambiente. Oferecemos consultoria especializada, 
+      orientando sobre os cuidados e manejos ideais para a sua ornamentação.
+      Mais do que uma loja de plantas ornamentais, somos apaixonados pelo que fazemos!
     </p>
   </div>
   <form [formGroup]="newsletterForm">
-    <label for="name">Name</label>
+    <label for="name">Nome</label>
     <input id="name" formControlName="name" />
     <label for="email">E-mail</label>
     <input id="email" formControlName="email" />
     <btn-primary
-      btn-text="Se inscreva"
+      btn-text="Enviar"
       variant="secondary"
       (submit)="onSubmit()"
       [disabled]="!newsletterForm.valid"

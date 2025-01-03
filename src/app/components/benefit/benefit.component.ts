@@ -10,6 +10,7 @@ import { Component, Input } from '@angular/core';
 })
 export class BenefitComponent {
   @Input("img-path")  imgPath: string = '';
+  @Input("video-path")  videoPath: string = '';
   @Input("card-title")  cardTitle: string = '';
   @Input("card-description")  cardDescription: string = '';
 

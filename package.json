@@ -1,11 +1,11 @@
 {
   "name": "angular-landing-page",
-  "version": "0.0.0",
+  "version": "1.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "watch": "ng build --watch --configuration development",
+    "watch": "ng build --watch --configuation development",
     "test": "ng test",
     "serve:ssr:angular-landing-page": "node dist/angular-landing-page/server/server.mjs"
   },
@@ -21,6 +21,7 @@
     "@angular/platform-server": "^17.1.0",
     "@angular/router": "^17.1.0",
     "@angular/ssr": "^17.1.3",
+    "angular-landing-page": "file:",
     "express": "^4.18.2",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",

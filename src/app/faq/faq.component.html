@@ -1,0 +1,12 @@
+<section class="faq-section">
+    <div class="faq-item" *ngFor="let faq of faqs; let i = index">
+      <div class="faq-question" (click)="showAnswer(i)">
+        <h3>{{ faq.question }}</h3>
+        <span>{{ faq.show ? '−' : '+' }}</span>
+      </div>
+      <div class="faq-answer" *ngIf="faq.show">
+        <p>{{ faq.answer }}</p>
+      </div>
+    </div>
+  </section>
+  
